@@ -26,6 +26,11 @@ function Navbar() {
               Social
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#decks" onClick={handleNavLinkClick}>
+              Decks
+            </a>
+          </li>
         </ul>
       </nav>
     );

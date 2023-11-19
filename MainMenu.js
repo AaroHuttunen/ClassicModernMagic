@@ -4,6 +4,7 @@ import BannerImage from "./components/pictures/BannerImage";
 import About from './components/info/About.js';
 import LegalSets from './components/lists/LegalSets.js';
 import BannedCards from './components/lists/BannedCards.js';
+import Decks from './components/decks/Decks.js';
 import Social from "./components/info/Social.js";
 import Footer from "./components/info/Footer.js";
 import "./MainMenu.css";
@@ -22,6 +23,7 @@ function MainMenu() {
                 <LegalSets/>
                 <BannedCards/>
                 <Social/>
+                <Decks/>
             </main>
             <footer>
                 <Footer/>
