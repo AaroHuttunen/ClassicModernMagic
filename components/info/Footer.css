@@ -16,3 +16,17 @@
     max-width: 90vw;
     margin: auto;
 }
+
+@media (max-width: 768px) {
+    .section#footer h2 {
+        font-size: 2rem;
+    }
+  
+    .section#footer h3 {
+        font-size: 1.5rem;
+    }
+  
+    .section#footer p {
+        font-size: 0.9rem;
+    }
+}

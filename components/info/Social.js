@@ -1,14 +1,14 @@
 import React from "react";
 import './Social.css';
 
-const Social = ({}) => {
+const Social = ({ }) => {
     return (
         <section id="social" className="section">
             <h2>Join Our Community</h2>
             <p>
                 Connect with fellow players and be a part of our vibrant community! Here's how you can get involved:
             </p>
-            
+
             <h3>Discord Server</h3>
             <p>
                 Join our Discord server for discussions, decklists, and all the other good stuff!<br></br>
@@ -23,5 +23,5 @@ const Social = ({}) => {
         </section>
     );
 }
-  
+
 export default Social;
